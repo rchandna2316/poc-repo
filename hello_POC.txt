@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>POC Website</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>POC: Smart Dashboard</h1>
+    <p>Demonstrating core functionality for internal review</p>
+  </header>
+
+  <section>
+    <h2>About This POC</h2>
+    <p>This proof of concept showcases a minimal dashboard that connects to a dummy API and displays user metrics. It's designed for stakeholders to evaluate functionality and layout before full-scale development.</p>
+  </section>
+
+  <section>
+    <h2>Core Features</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>Live Data Integration</h3>
+        <p>Connects to a placeholder API to simulate real-time metrics.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Responsive Design</h3>
+        <p>Optimized layout for both desktop and mobile screens.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Modular Codebase</h3>
+        <p>Clean HTML, CSS, and JS ready for integration with frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>For feedback or access to the code, reach out at <a href="mailto:poc@company.com">poc@company.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 POC Team – For internal use only.
+  </footer>
+
+</body>
+</html>
+
